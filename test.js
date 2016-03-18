@@ -7,9 +7,9 @@ process.stdin.on('data', function(data) {
 
 process.on('exit', function() {
   if (received === total) {
-    process.stdout.write('Test completed!');
+    process.stdout.write('Test completed!\n');
   } else {
-    process.stderr.write('Test failed! Received ' + received + ' symbols, but ' + total + ' expected!');
+    process.stderr.write('Test failed! Received ' + received + ' symbols, but ' + total + ' expected!\n');
     process.exit(1);
   }
 });
