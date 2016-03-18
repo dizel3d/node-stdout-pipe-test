@@ -13,3 +13,5 @@ test_script:
   - node --version
   - npm --version
   - node print | node test
+
+build: off
