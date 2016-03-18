@@ -1,6 +1,6 @@
 # Node.js stdout pipe test
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/dizel3d/node-stdout-pipe-test)](https://ci.appveyor.com/project/dizel3d/node-stdout-pipe-test)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/dizel3d/node-stdout-pipe-test?branch=master&svg=true)](https://ci.appveyor.com/project/dizel3d/node-stdout-pipe-test)
 
 There are two Node.js scripts:
 - **print.js** writes symbol `0` to stdout N times through `process.stdout.write` and immediately finishes calling `process.exit(0)`
